@@ -1,0 +1,4 @@
+/resume
+__pycache__/
+test.py
+*.env
