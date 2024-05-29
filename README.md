@@ -12,6 +12,31 @@ $ conda activate "env_name" #Activating the virtual environment
 $ pip install -r requirements.txt
 $ python manage.py runserver 
 ```
+Certainly! Here is the README section for creating a `.env` file with the `OPENAI_API_KEY`:
+
+
+### Setup Environment Variables
+
+To configure the Resume Analyzer App, you need to set up environment variables for accessing the OpenAI API. Follow these steps to create a `.env` file in the `myapp` directory.
+
+1. Navigate to the `myapp` directory:
+    ```bash
+    cd myapp
+    ```
+
+2. Create a new file named `.env`:
+    ```bash
+    touch .env
+    ```
+
+3. Open the `.env` file in a text editor and add your OpenAI API key:
+    ```plaintext
+    OPENAI_API_KEY="your_api_key"
+    ```
+
+4. Save and close the `.env` file.
+
+Make sure to replace `"your_api_key"` with your actual OpenAI API key.
 
 ---
 
